@@ -1,0 +1,81 @@
+header{
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	min-height: 700px;
+}
+.th-common{
+	padding: 90px 0 60px;
+}
+.th-bg{
+	background-color: #F5FFF5;
+}
+.th-icons{
+	width: 60px;
+}
+
+/*---------portfolios*/
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+
+
+/*---------------testimonial*/
+.th-carousal li{
+	background-color: #000;
+}
+
+
+
+.th-bg-black{
+	background-color: #191c2f;
+}
+
+.th-footer-bg{
+	background-color: #151723;
+}
+
+footer{
+	background-color: #090c21;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    color: #fff;
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
